@@ -61,11 +61,14 @@
 
 # Challenges Encountered
 
-### 1. Git was not recognized in the terminal.
-**Solution:** Installed Git correctly and restarted the terminal.
+1. Slow and interrupted downloads
 
-### 2. GitHub repository was empty after cloning.
-**Solution:** Created the required folders and committed them to the repository.
+Some of the required installation files were large, causing the downloads to take a long time. One of the downloads was interrupted, so I switched to a different browser to complete it successfully.
 
-### 3. The Week folders did not appear in VS Code.
-**Solution:** Opened the correct project folder using **File → Open Folder** in VS Code.
+2. Managing large installation files
+
+The Ubuntu and Windows ISO files occupied several gigabytes of storage. I organized the files into a dedicated folder to make them easier to locate for future laboratory activities.
+
+3. Setting up the required development environment
+
+Installing multiple software applications and organizing the required project folders took time and careful attention. I verified each installation and organized the files according to the required repository structure.
