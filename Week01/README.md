@@ -61,14 +61,14 @@
 
 # Challenges Encountered
 
-1. Slow and interrupted downloads
+### 1. Slow and interrupted downloads
 
 Some of the required installation files were large, causing the downloads to take a long time. One of the downloads was interrupted, so I switched to a different browser to complete it successfully.
 
-2. Managing large installation files
+### 2. Managing large installation files
 
 The Ubuntu and Windows ISO files occupied several gigabytes of storage. I organized the files into a dedicated folder to make them easier to locate for future laboratory activities.
 
-3. Setting up the required development environment
+### 3. Setting up the required development environment
 
 Installing multiple software applications and organizing the required project folders took time and careful attention. I verified each installation and organized the files according to the required repository structure.
