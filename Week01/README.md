@@ -2,7 +2,7 @@
 
 ## Student Information
 
-- **Name:** Lena Quizon
+- **Name:** Ma. Lena Therese S. Quizon
 - **Course:** Bachelor of Science in Information Technology
 - **Section:** BSIT 4A
 - **Date:** August 2026
