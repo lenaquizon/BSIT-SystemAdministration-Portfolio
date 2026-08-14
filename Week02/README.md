@@ -69,7 +69,7 @@ The proposed software provides the company with operating systems, productivity 
 
 The network topology was created using **[Draw.io (diagrams.net)](https://www.diagrams.net/)**. It shows the connection between the internet, network devices, server, printer, wireless access point, and the four departments.
 
-![ABC Startup Solutions Network Diagram](diagrams/NetworkTopology.png)
+![ABC Startup Solutions Network Diagram](diagrams/Enterprise_Network_Topology.png)
 
 ## Technologies Used
 
