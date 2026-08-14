@@ -1,44 +1,44 @@
-# References
+References
 
-### Ubuntu Version Information
+1. Ubuntu Version Information
 https://ubuntu.com/download/desktop
 
-### VirtualBox Version Information
+2. VirtualBox Version Information
 https://www.virtualbox.org/wiki/Downloads
 
-### Google Chrome Version Information
+3. Google Chrome Version Information
 https://www.whatismybrowser.com/guides/the-latest-version/chrome#google_vignette
 
-### Microsoft Defender Version Information
+4. Microsoft Defender Version Information
 https://www.microsoft.com/en-us/wdsi/defenderupdates
 
-### AnyDesk Version Information
+5. AnyDesk Version Information
 https://anydesk.com/en/downloads/windows
 
-### 7-Zip Version Information
+6. 7-Zip Version Information
 https://www.7-zip.org/download.html
 
-### Helpdesk Technician Roles
+7. Helpdesk Technician Roles
 Responsibilities: https://www.auxilion.com/insights/help-desk-technician-role-and-responsibilities
 Skills: https://www.indeed.com/career-advice/resumes-cover-letters/help-desk-skills
 Common Tools: https://coursecareers.com/blog-posts/8-essential-it-support-tools
 Certifications: https://www.beyondtrust.com/blog/entry/5-must-have-certifications-for-support-professionals
 
-### Network Administrator Roles
+8. Network Administrator Roles
 Responsibilities/Skills: https://www.indeed.com/career-advice/finding-a-job/what-are-responsibilities-of-network-administrator
 Common Tools: https://www.spiceworks.com/it-articles/network-admin-tools/
 Certifications: https://www.indeed.com/career-advice/career-development/top-network-administrator-certifications
 
-### Linux System Administrator
+9. Linux System Administrator
 Responsibilities/Tools: https://www.geeksforgeeks.org/linux-unix/what-is-linux-system-administration/
 Skills: https://www.redhat.com/en/blog/skills-linux-sysadmin
 Certifications: https://www.tealhq.com/career-paths/linux-system-administrator-certifications#top-linux-system-administrator-certifications
 
-### Cloud Administrator
+10. Cloud Administrator
 Responsibilities/Skills: https://in.indeed.com/career-advice/finding-a-job/cloud-administrator-responsibilities
 Tools: https://www.stackroutelearning.com/key-tools-and-technologies-every-cloud-administrator-should-master/
 Certifications: https://www.ascendientlearning.com/blog/top-it-cloud-certifications-for-cloud-professionals
 
-### Infrastructure Recommendations
+11. Infrastructure Recommendations
 https://alphadc.net/blog/review/best-specification-for-server/
 https://www.avepoint.com/blog/backup/3-2-1-backup-rule#what-is-the-3-2-1-backup-rule
