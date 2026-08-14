@@ -15,26 +15,26 @@ submitted to an IT Manager or Company Executive.
 
 ## Learning Objectives
 
-At the end of this project, students should be able to: 
-Knowledge 
-• Explain the roles and responsibilities of a System Administrator. 
+At the end of this project, students should be able to: <br>
+### Knowledge <br>
+• Explain the roles and responsibilities of a System Administrator. <br>
 • Identify the hardware, software, and networking requirements of a small 
-business. 
-• Describe the purpose of IT documentation and infrastructure planning. 
-Skills 
-Students will be able to: 
-• Analyze organizational IT requirements. 
-• Prepare professional IT inventories. 
-• Design an enterprise network topology. 
-• Create technical documentation using Markdown. 
-• Present infrastructure planning professionally. 
-Attitude 
-Students are expected to demonstrate: 
-• Professionalism 
-• Organization 
-• Technical communication 
-• Attention to detail 
-• Critical thinking
+business. <br>
+• Describe the purpose of IT documentation and infrastructure planning. <br>
+### Skills. <br>
+Students will be able to: <br>
+• Analyze organizational IT requirements. <br>
+• Prepare professional IT inventories. <br>
+• Design an enterprise network topology. <br>
+• Create technical documentation using Markdown. <br>
+• Present infrastructure planning professionally. <br>
+### Attitude <br>
+Students are expected to demonstrate: <br>
+• Professionalism <br>
+• Organization <br>
+• Technical communication <br>
+• Attention to detail <br>
+• Critical thinking<br>
 
 ## Company Scenario
 
