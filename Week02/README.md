@@ -68,11 +68,11 @@ The proposed hardware infrastructure includes employee computers, server equipme
 | Hardware | Quantity | Purpose |
 |---|---:|---|
 | Desktop Computers | 15 | Employee workstations |
-| Laptops | 5 | IT work and mobility |
-| Server | 1 | Centralized services and applications |
+| Laptops | 5 | Work mobility |
+| Server | 1 | Centralized services and hosting |
 | Router | 1 | Network routing and internet connectivity |
-| Managed Switch | 1 | Connects wired network devices |
-| Network Printer | 1 | Shared printing |
+| Switch | 1 | Connects wired network devices |
+| Printer | 1 | Shared printing, scanning, and photocopying |
 | UPS | 2 | Power protection |
 | Wireless Access Point | 1 | Wireless connectivity |
 | NAS Storage | 1 | Centralized storage and backups |
@@ -85,16 +85,16 @@ The proposed software provides the company with operating systems, productivity 
 
 | Software | Purpose |
 |---|---|
-| Windows 11 Pro | Primary operating system for employee computers |
-| Ubuntu Server | Operating system for the company server |
+| Windows 11 Pro | Main operating system for employee computers |
+| Ubuntu Server | Main server for hosting services, apps, databases, and other services. |
 | Microsoft 365 | Productivity and communication |
 | Visual Studio Code | Software development and code editing |
 | Git | Source code version control |
 | GitHub Desktop | Git and GitHub management |
-| VirtualBox | Virtual machine management |
+| VirtualBox | Manage virtual machines |
 | Google Chrome | Web browsing and web-based services |
 | Microsoft Defender | Protection against security threats |
-| AnyDesk | Remote technical support |
+| AnyDesk | Remote access to devices |
 | 7-Zip | File compression and extraction |
 
 ## Embedded Network Diagram
@@ -106,22 +106,17 @@ The network topology was created using **[Draw.io (diagrams.net)](https://www.di
 ## Technologies Used
 
 - **Microsoft Word** – Documentation and final infrastructure plan
-- **Draw.io** – Network topology design
-- **Windows 11 Pro** – Employee operating system
-- **Ubuntu Server** – Server operating system
-- **Microsoft 365** – Productivity and communication
-- **Git and GitHub** – Version control and project repository
-- **CAT6 Ethernet** – Wired network connections
+- **Draw.io** – Diagram design
+- **GitHub** – Used to store and document the project repository
+- **Visual Studio Code** – Used to create and edit the README.me file
 
 ## Challenges Encountered
 
-One of the main challenges encountered was designing the network topology and determining how the different devices should be connected. It was necessary to consider the company's size and departmental requirements when selecting the appropriate equipment. Choosing realistic quantities for the hardware and network equipment was also challenging because the infrastructure needed to meet the company's current needs while still allowing room for future expansion.
+One of the main challenges I've encountered was determining the appropriate devices and components that realistically fits the number of employees the company has. Another challenge was designing the network topology to determine how those devices should be connected. 
 
 ## Reflection
 
-This project helped me get a better understanding of how important the role of a System Administrator is. I learned how important it is to properly plan an organization's IT infrastructure based on the company's needs. Planning the hardware, software, and network inventories gave me a better understanding of how devices and technologies play a key role in an organization.
-
-The activity also taught me that a System Administrator needs to be organized, careful, and prepared for possible problems. Creating the infrastructure plan allowed me to practice making decisions based on the company's requirements while considering security, backups, and future expansion. The experience I gained from this project can help me become more confident when working with actual IT systems and handling system administration tasks.
+The making of this helped me get a better understanding on how important the role of a system administrator is. I learned how important it is to properly plan an organization’s IT infrastructure based on what the company’s needs. Planning the whole hardware, software, and the network inventories gave me a better understanding how devices and technologies play a key role in an organization.
 
 ## References
 
