@@ -21,7 +21,7 @@ At the end of this project, students should be able to: <br>
 • Identify the hardware, software, and networking requirements of a small 
 business. <br>
 • Describe the purpose of IT documentation and infrastructure planning. <br>
-### Skills. <br>
+### Skills <br>
 Students will be able to: <br>
 • Analyze organizational IT requirements. <br>
 • Prepare professional IT inventories. <br>
@@ -101,7 +101,7 @@ The proposed software provides the company with operating systems, productivity 
 
 The network topology was created using **[Draw.io (diagrams.net)](https://www.diagrams.net/)**. It shows the connection between the internet, network devices, server, printer, wireless access point, and the four departments.
 
-![ABC Startup Solutions Network Diagram](diagrams/Enterprise_Network_Topology.drawio.png)
+![ABC Startup Solutions Network Diagram](diagrams/Enterprise_network_topology.drawio.png)
 
 ## Technologies Used
 
