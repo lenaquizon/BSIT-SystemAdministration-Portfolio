@@ -1,3 +1,96 @@
+# Enterprise Infrastructure Plan – ABC Startup Solutions
+
+## Project Overview
+
+This project presents an IT infrastructure plan for **ABC Startup Solutions**, a fictional software development company with 20 employees. The plan covers the company's hardware, software, network infrastructure, security, backup strategy, and future expansion. The goal is to create a reliable and secure IT environment that meets the company's current needs while allowing room for future growth.
+
+## Learning Objectives
+
+- Understand the basic components of an organization's IT infrastructure.
+- Identify suitable hardware, software, and networking equipment.
+- Design a basic enterprise network topology.
+- Understand the roles and responsibilities of system administration professionals.
+- Develop recommendations for security, backup, and future expansion.
+- Practice documenting an IT infrastructure plan using professional tools.
+
+## Company Scenario
+
+**ABC Startup Solutions** is a fictional software development company located in **Santa Rosa City, Laguna, Philippines**. The company occupies a single office floor and has 20 employees distributed across four departments.
+
+### Employee Distribution
+
+| Department | Employees |
+|---|---:|
+| Information Technology | 5 |
+| Human Resources | 4 |
+| Finance | 5 |
+| Sales | 6 |
+| **Total** | **20** |
+
+The company currently has no computers, server, network infrastructure, internet connection, or security policies. This project provides a complete infrastructure plan to support its operations.
+
+## Hardware Inventory Summary
+
+The proposed hardware infrastructure includes employee computers, server equipment, network devices, storage, power protection, and shared peripherals.
+
+| Hardware | Quantity | Purpose |
+|---|---:|---|
+| Desktop Computers | 15 | Employee workstations |
+| Laptops | 5 | IT work and mobility |
+| Server | 1 | Centralized services and applications |
+| Router | 1 | Network routing and internet connectivity |
+| Managed Switch | 1 | Connects wired network devices |
+| Network Printer | 1 | Shared printing |
+| UPS | 2 | Power protection |
+| Wireless Access Point | 1 | Wireless connectivity |
+| NAS Storage | 1 | Centralized storage and backups |
+| External Backup Drives | 2 | Additional data backups |
+| Monitors | 20 | Employee displays |
+
+## Software Inventory Summary
+
+The proposed software provides the company with operating systems, productivity applications, development tools, security features, and utilities.
+
+| Software | Purpose |
+|---|---|
+| Windows 11 Pro | Primary operating system for employee computers |
+| Ubuntu Server | Operating system for the company server |
+| Microsoft 365 | Productivity and communication |
+| Visual Studio Code | Software development and code editing |
+| Git | Source code version control |
+| GitHub Desktop | Git and GitHub management |
+| VirtualBox | Virtual machine management |
+| Google Chrome | Web browsing and web-based services |
+| Microsoft Defender | Protection against security threats |
+| AnyDesk | Remote technical support |
+| 7-Zip | File compression and extraction |
+
+## Embedded Network Diagram
+
+The network topology was created using **[Draw.io (diagrams.net)](https://www.diagrams.net/)**. It shows the connection between the internet, network devices, server, printer, wireless access point, and the four departments.
+
+![ABC Startup Solutions Network Diagram](diagrams/NetworkTopology.png)
+
+## Technologies Used
+
+- **Microsoft Word** – Documentation and final infrastructure plan
+- **Draw.io** – Network topology design
+- **Windows 11 Pro** – Employee operating system
+- **Ubuntu Server** – Server operating system
+- **Microsoft 365** – Productivity and communication
+- **Git and GitHub** – Version control and project repository
+- **CAT6 Ethernet** – Wired network connections
+
+## Challenges Encountered
+
+One of the main challenges encountered was designing the network topology and determining how the different devices should be connected. It was necessary to consider the company's size and departmental requirements when selecting the appropriate equipment. Choosing realistic quantities for the hardware and network equipment was also challenging because the infrastructure needed to meet the company's current needs while still allowing room for future expansion.
+
+## Reflection
+
+This project helped me get a better understanding of how important the role of a System Administrator is. I learned how important it is to properly plan an organization's IT infrastructure based on the company's needs. Planning the hardware, software, and network inventories gave me a better understanding of how devices and technologies play a key role in an organization.
+
+The activity also taught me that a System Administrator needs to be organized, careful, and prepared for possible problems. Creating the infrastructure plan allowed me to practice making decisions based on the company's requirements while considering security, backups, and future expansion. The experience I gained from this project can help me become more confident when working with actual IT systems and handling system administration tasks.
+
 # References
 
 ### Ubuntu Version Information
