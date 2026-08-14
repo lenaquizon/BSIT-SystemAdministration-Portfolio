@@ -2,22 +2,47 @@
 
 ## Project Overview
 
-This project presents an IT infrastructure plan for **ABC Startup Solutions**, a fictional software development company with 20 employees. The plan covers the company's hardware, software, network infrastructure, security, backup strategy, and future expansion. The goal is to create a reliable and secure IT environment that meets the company's current needs while allowing room for future growth.
+Every successful IT infrastructure begins with proper planning. 
+Before purchasing computers, installing servers, configuring networks, or deploying 
+cloud services, a System Administrator must first understand the organization's 
+business requirements and design an infrastructure that supports business 
+operations. 
+In this project, you will assume the role of a Junior System Administrator 
+assigned to prepare the initial IT Infrastructure Plan of a newly established startup 
+company. 
+Your final output should resemble a professional document that could be 
+submitted to an IT Manager or Company Executive.  
 
 ## Learning Objectives
 
-- Understand the basic components of an organization's IT infrastructure.
-- Identify suitable hardware, software, and networking equipment.
-- Design a basic enterprise network topology.
-- Understand the roles and responsibilities of system administration professionals.
-- Develop recommendations for security, backup, and future expansion.
-- Practice documenting an IT infrastructure plan using professional tools.
+At the end of this project, students should be able to: 
+Knowledge 
+• Explain the roles and responsibilities of a System Administrator. 
+• Identify the hardware, software, and networking requirements of a small 
+business. 
+• Describe the purpose of IT documentation and infrastructure planning. 
+Skills 
+Students will be able to: 
+• Analyze organizational IT requirements. 
+• Prepare professional IT inventories. 
+• Design an enterprise network topology. 
+• Create technical documentation using Markdown. 
+• Present infrastructure planning professionally. 
+Attitude 
+Students are expected to demonstrate: 
+• Professionalism 
+• Organization 
+• Technical communication 
+• Attention to detail 
+• Critical thinking
 
 ## Company Scenario
 
-**ABC Startup Solutions** is a fictional software development company located in **Santa Rosa City, Laguna, Philippines**. The company occupies a single office floor and has 20 employees distributed across four departments.
+You have recently been hired as the Junior System Administrator of ABC Startup Solutions, a newly established software development company.
 
-### Employee Distribution
+The company currently has 20 employees and occupies a single office floor. Management has requested that you prepare the complete IT Infrastructure Plan before purchasing equipment.
+
+The company consists of the following departments:
 
 | Department | Employees |
 |---|---:|
@@ -25,9 +50,16 @@ This project presents an IT infrastructure plan for **ABC Startup Solutions**, a
 | Human Resources | 4 |
 | Finance | 5 |
 | Sales | 6 |
-| **Total** | **20** |
+| **TOTAL** | **20** |
 
-The company currently has no computers, server, network infrastructure, internet connection, or security policies. This project provides a complete infrastructure plan to support its operations.
+The company currently has:
+- No computers
+- No server
+- No network
+- No internet infrastructure
+- No security policies
+
+Your task is to design everything from scratch.
 
 ## Hardware Inventory Summary
 
@@ -91,7 +123,7 @@ This project helped me get a better understanding of how important the role of a
 
 The activity also taught me that a System Administrator needs to be organized, careful, and prepared for possible problems. Creating the infrastructure plan allowed me to practice making decisions based on the company's requirements while considering security, backups, and future expansion. The experience I gained from this project can help me become more confident when working with actual IT systems and handling system administration tasks.
 
-# References
+## References
 
 ### Ubuntu Version Information
 https://ubuntu.com/download/desktop
