@@ -112,26 +112,23 @@ https://anydesk.com/en/downloads/windows
 https://www.7-zip.org/download.html
 
 ### Helpdesk Technician Roles
-Responsibilities: https://www.auxilion.com/insights/help-desk-technician-role-and-responsibilities
-Skills: https://www.indeed.com/career-advice/resumes-cover-letters/help-desk-skills
-Common Tools: https://coursecareers.com/blog-posts/8-essential-it-support-tools
-Certifications: https://www.beyondtrust.com/blog/entry/5-must-have-certifications-for-support-professionals
+Responsibilities: https://www.auxilion.com/insights/help-desk-technician-role-and-responsibilities <br>Skills: https://www.indeed.com/career-advice/resumes-cover-letters/help-desk-skills <br>Common Tools: https://coursecareers.com/blog-posts/8-essential-it-support-tools <br>Certifications: https://www.beyondtrust.com/blog/entry/5-must-have-certifications-for-support-professionals
 
 ### Network Administrator Roles
-Responsibilities/Skills: https://www.indeed.com/career-advice/finding-a-job/what-are-responsibilities-of-network-administrator
-Common Tools: https://www.spiceworks.com/it-articles/network-admin-tools/
-Certifications: https://www.indeed.com/career-advice/career-development/top-network-administrator-certifications
+Responsibilities/Skills: https://www.indeed.com/career-advice/finding-a-job/what-are-responsibilities-of-network-administrator <br>
+Common Tools: https://www.spiceworks.com/it-articles/network-admin-tools/ <br>
+Certifications: https://www.indeed.com/career-advice/career-development/top-network-administrator-certifications <br>
 
 ### Linux System Administrator
-Responsibilities/Tools: https://www.geeksforgeeks.org/linux-unix/what-is-linux-system-administration/
-Skills: https://www.redhat.com/en/blog/skills-linux-sysadmin
-Certifications: https://www.tealhq.com/career-paths/linux-system-administrator-certifications#top-linux-system-administrator-certifications
+Responsibilities/Tools: https://www.geeksforgeeks.org/linux-unix/what-is-linux-system-administration/ <br>
+Skills: https://www.redhat.com/en/blog/skills-linux-sysadmin <br>
+Certifications: https://www.tealhq.com/career-paths/ linux-system-administrator-certifications#top-linux-system-administrator-certifications <br>
 
 ### Cloud Administrator
-Responsibilities/Skills: https://in.indeed.com/career-advice/finding-a-job/cloud-administrator-responsibilities
-Tools: https://www.stackroutelearning.com/key-tools-and-technologies-every-cloud-administrator-should-master/
-Certifications: https://www.ascendientlearning.com/blog/top-it-cloud-certifications-for-cloud-professionals
+Responsibilities/Skills: https://in.indeed.com/career-advice/finding-a-job/cloud-administrator-responsibilities <br>
+Tools: https://www.stackroutelearning.com/key-tools-and-technologies-every-cloud-administrator-should-master/ <br>
+Certifications: https://www.ascendientlearning.com/blog/top-it-cloud-certifications-for-cloud-professionals <br>
 
 ### Infrastructure Recommendations
-https://alphadc.net/blog/review/best-specification-for-server/
+https://alphadc.net/blog/review/best-specification-for-server/ <br>
 https://www.avepoint.com/blog/backup/3-2-1-backup-rule#what-is-the-3-2-1-backup-rule
