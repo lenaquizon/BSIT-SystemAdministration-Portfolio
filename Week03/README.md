@@ -98,7 +98,7 @@ By the end of this activity, students will have: <br>
 • Command: systemctl status ssh <br>
 •Expected Result: Output indicates Active: active (running) in green text.<br>
 
---
+---
 
 ## BIOS vs UEFI Highlights
 
@@ -116,7 +116,7 @@ By the end of this activity, students will have: <br>
 | **Disadvantages** | Severe storage limits, slow POST sequence, security vulnerabilities. | Requires system/firmware compatibility; complex implementation. |
 | **Modern Usage** | Obsolete; reserved for legacy hardware | Standard on all modern PCs and server platforms |
 
---
+---
 
 ## Boot Process Flowchart
 ![Boot Process Flowchart](diagrams/Boot_process_flowchart.drawio.png)
