@@ -36,39 +36,64 @@ By the end of this activity, students will have: <br>
 
 | Feature | Specification |
 | :--- | :--- |
-| **Hypervisor** | VirtualBox / VMware Workstation / KVM |
-| **Guest OS** | Ubuntu 22.04 LTS (or specified distro) |
+| **Hypervisor** | VirtualBox |
+| **Guest OS** | Ubuntu 25.04 LTS (or specified distro) |
 | **vCPUs Assigned** | 2 Cores |
 | **RAM Allocated** | 4 GB (4096 MB) |
-| **Virtual Disk Size** | 20 GB (Dynamically Allocated) |
-| **Firmware Type** | UEFI (or Legacy BIOS) |
-| **Network Adapter** | NAT / Bridged |
+| **Virtual Disk Size** | 40 GB |
+| **Network Adapter** | NAT |
 
 ---
 
 ## Installation Summary
-1. **Hypervisor Setup:** Installed and configured the virtualization engine.
-2. **ISO Download:** Provisioned the official installation ISO image and verified its SHA-256 checksum.
-3. **VM Creation:** Configured system resources according to specifications (RAM, CPU, and Disk).
-4. **OS Installation:** 
-   * Configured storage partitioning schema (GPT/EFI System Partition).
-   * Created standard user account with `sudo` privileges.
-   * Completed core package installation and rebooted into the guest system.
+1. **Hypervisor Provisioning:**
+• Launched Oracle VM VirtualBox and selected New.
+• Defined VM Name as Ubuntu-Server-Week03 and attached the Ubuntu Server 25.04 ISO.
+• Allocated 4 GB RAM, 2 vCPUs, and a 40 GB dynamic virtual disk.
+• Configured the primary network adapter to NAT.
+
+2. **System Setup & Profile Configuration:**
+• Booted the VM and selected Ubuntu Server from the installation menu. <br>
+• Configured primary language and keyboard layout to English (US). <br>
+• Selected standard Ubuntu Server (Default) base package set. <br>
+• Set up system credentials and profile parameters:<br>
+    Administrator Name: YourName<br>
+    Hostname: server01<br>
+    Username: quizon<br>
+    Password: Standard secure password<br>
+• Enabled Install OpenSSH Server for remote administration capabilities.
+
+3. **Finalization & Reboot:**
+• Completed core package installation and selected Reboot Now.
 
 ---
 
 ## Configuration Summary
-* **Package Updates:** Executed `sudo apt update && sudo apt upgrade -y` to bring system packages up to date.
-* **Guest Additions / Tools:** Installed hypervisor integrations for shared clipboard and display auto-resizing.
-* **Network Configuration:** Configured static/DHCP IP settings and verified internet connectivity via `ping`.
-* **SSH Access:** Enabled OpenSSH server (`sudo systemctl enable --now ssh`) for remote shell access.
+* **Hostname:** server01
+* **Administrative Account:** quizon 
+* **Primary Network Interface:** enp0s3 
+* **Remote Access Service:** OpenSSH Server 
 
 ---
 
 ## Verification Results
-Below are terminal commands executed to verify system setup along with expected outputs:
 
-* **Kernel & Architecture Check:**
-  ```bash
-  uname -a
-  # Output: Linux ubuntu-vm 5.15.0-88-generic #98-Ubuntu SMP x86_64
+1. **Host Identity Verification**
+• Command: hostname<br>
+• Expected Result: Output displays **server01**, matching assigned system identity.
+
+2. **Network IP Assignment**
+• Command: ip addr<br>
+• Expected Result: Displays **enp0s3** interface with an assigned IPv4 address under the inet attribute.
+
+3. **Outbound Network Connectivity**
+• Command: ping -c 4 google.com<br>
+• Expected Result: Transmits 4 ICMP packets returning 0% packet loss, confirming active internet access and functional DNS resolution.<br>
+
+4. **Package Manager Synchronization**
+• Command: sudo apt update && sudo apt upgrade -y <br>
+• Expected Result: Synchronizes package lists successfully and upgrades outdated packages without broken dependencies.
+
+5. **OpenSSH Service Daemon Status**
+• Command: systemctl status ssh <br>
+•Expected Result: Output indicates Active: active (running) in green text.<br>
