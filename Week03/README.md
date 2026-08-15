@@ -47,20 +47,20 @@ By the end of this activity, students will have: <br>
 
 ## Installation Summary
 1. **Hypervisor Provisioning:**
-• Launched Oracle VM VirtualBox and selected New.
-• Defined VM Name as Ubuntu-Server-Week03 and attached the Ubuntu Server 25.04 ISO.
-• Allocated 4 GB RAM, 2 vCPUs, and a 40 GB dynamic virtual disk.
-• Configured the primary network adapter to NAT.
+• Launched Oracle VM VirtualBox and selected New.<br>
+• Defined VM Name as Ubuntu-Server-Week03 and attached the Ubuntu Server 25.04 ISO.<br>
+• Allocated 4 GB RAM, 2 vCPUs, and a 40 GB dynamic virtual disk.<br>
+• Configured the primary network adapter to NAT.<br>
 
 2. **System Setup & Profile Configuration:**
 • Booted the VM and selected Ubuntu Server from the installation menu. <br>
 • Configured primary language and keyboard layout to English (US). <br>
 • Selected standard Ubuntu Server (Default) base package set. <br>
 • Set up system credentials and profile parameters:<br>
-    Administrator Name: YourName<br>
-    Hostname: server01<br>
-    Username: quizon<br>
-    Password: Standard secure password<br>
+    • Administrator Name: YourName<br>
+    • Hostname: server01<br>
+    • Username: quizon<br>
+    • Password: Standard secure password<br>
 • Enabled Install OpenSSH Server for remote administration capabilities.
 
 3. **Finalization & Reboot:**
@@ -78,22 +78,22 @@ By the end of this activity, students will have: <br>
 
 ## Verification Results
 
-1. **Host Identity Verification**
+1. **Host Identity Verification**<br>
 • Command: hostname<br>
 • Expected Result: Output displays **server01**, matching assigned system identity.
 
-2. **Network IP Assignment**
+2. **Network IP Assignment**<br>
 • Command: ip addr<br>
 • Expected Result: Displays **enp0s3** interface with an assigned IPv4 address under the inet attribute.
 
-3. **Outbound Network Connectivity**
+3. **Outbound Network Connectivity**<br>
 • Command: ping -c 4 google.com<br>
 • Expected Result: Transmits 4 ICMP packets returning 0% packet loss, confirming active internet access and functional DNS resolution.<br>
 
-4. **Package Manager Synchronization**
+4. **Package Manager Synchronization**<br>
 • Command: sudo apt update && sudo apt upgrade -y <br>
 • Expected Result: Synchronizes package lists successfully and upgrades outdated packages without broken dependencies.
 
-5. **OpenSSH Service Daemon Status**
+5. **OpenSSH Service Daemon Status**<br>
 • Command: systemctl status ssh <br>
 •Expected Result: Output indicates Active: active (running) in green text.<br>
