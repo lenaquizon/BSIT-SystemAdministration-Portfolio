@@ -146,7 +146,7 @@ In the end, setting up the virtual machine started from being an overwhelming ta
 •	https://www.lenovo.com/ph/en/glossary/what-is-a-bios/ 
 ### UEFI: 
 •	https://www.hp.com/hk-en/tech-takes/software/explainer/what-is-uefi.html <br>
-•	Max Disk Drive/Partition Style: https://uefi.org/sites/default/files/resources/UEFI_Drive_Partition_Limits_Fact_Sheet.pdf <br>
+•	https://uefi.org/sites/default/files/resources/UEFI_Drive_Partition_Limits_Fact_Sheet.pdf <br>
 •	https://www.techtarget.com/whatis/definition/Unified-Extensible-Firmware-Interface-UEFI 
 ### BIOS History: 
 •	https://zachary-brown.com/blog/bios/ <br>
