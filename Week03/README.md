@@ -14,21 +14,21 @@ Students should be able to:
 3. Explain the stages of the computer boot process. 
 4. Compare Ubuntu Server, Windows Server, and Rocky Linux. 
 ### Skills 
-Students should be able to: 
-• Install Ubuntu Server in a virtual machine. 
-• Configure server settings during installation. 
-• Enable secure remote administration using SSH. 
-• Verify server functionality. 
-• Document installation procedures. 
-• Produce professional technical documentation. 
+Students should be able to: <br>
+• Install Ubuntu Server in a virtual machine. <br>
+• Configure server settings during installation. <br>
+• Enable secure remote administration using SSH. <br>
+• Verify server functionality. <br>
+• Document installation procedures. <br>
+• Produce professional technical documentation. <br>
 ### Professional Outcomes 
-By the end of this activity, students will have: 
-• Installed Ubuntu Server
-• Configured a working Linux server 
-• Produced a deployment guide 
-• Created installation documentation 
-• Updated their GitHub portfolio 
-• Published a LinkedIn learning reflection 
+By the end of this activity, students will have: <br>
+• Installed Ubuntu Server <br>
+• Configured a working Linux server <br>
+• Produced a deployment guide <br>
+• Created installation documentation <br>
+• Updated their GitHub portfolio <br>
+• Published a LinkedIn learning reflection <br>
 
 ---
 
