@@ -53,15 +53,15 @@ By the end of this activity, students will have: <br>
 • Configured the primary network adapter to NAT.<br>
 
 2. **System Setup & Profile Configuration:**
-• Booted the VM and selected Ubuntu Server from the installation menu. <br>
-• Configured primary language and keyboard layout to English (US). <br>
-• Selected standard Ubuntu Server (Default) base package set. <br>
-• Set up system credentials and profile parameters:<br>
-    • Administrator Name: YourName<br>
-    • Hostname: server01<br>
-    • Username: quizon<br>
-    • Password: Standard secure password<br>
-• Enabled Install OpenSSH Server for remote administration capabilities.
+   * Booted the VM and selected Ubuntu Server from the installation menu.
+   * Configured primary language and keyboard layout to English (US).
+   * Selected standard Ubuntu Server (Default) base package set.
+   * Set up system credentials and profile parameters:
+     * Administrator Name: YourName
+     * Hostname: server01
+     * Username: quizon
+     * Password: Standard secure password
+   * Enabled Install OpenSSH Server for remote administration capabilities.
 
 3. **Finalization & Reboot:**
 • Completed core package installation and selected Reboot Now.
