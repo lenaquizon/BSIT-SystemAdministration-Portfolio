@@ -137,3 +137,27 @@ Setting up a virtual environment was a bit overwhelming at first, especially whe
 The installation process was somewhat easier since our instructor also gave what we should pick with the configurations. If there were parts that was a bit confusing, I did end up consulting chatbots to help me navigate through the configuration process. However, when the installation was completed, it ended up being quite easy. The experience taught me how to create and install a new virtual machine, and adjust the needed configurations for the activity. 
 
 In the end, setting up the virtual machine started from being an overwhelming task, to somewhat a valuable learning experience. It enabled me to explore VirtualBox and understand how virtualization works. With this experience, I hope that I could further practice more on virtual machines and be able to manage different operating systems in the future.
+
+---
+
+## References
+
+### BIOS: 
+•	https://www.lenovo.com/ph/en/glossary/what-is-a-bios/ 
+### UEFI: 
+•	https://www.hp.com/hk-en/tech-takes/software/explainer/what-is-uefi.html <br>
+•	Max Disk Drive/Partition Style: https://uefi.org/sites/default/files/resources/ UEFI_Drive_Partition_Limits_Fact_Sheet.pdf <br>
+•	https://www.techtarget.com/whatis/definition/Unified-Extensible-Firmware-Interface-UEFI 
+### BIOS History: 
+•	https://zachary-brown.com/blog/bios/ <br>
+•	https://medium.com/@pratham.tomar23/understanding-bios-the-hidden-brain-that-boots-your-computer-969c35ce2707 <br>
+### Windows Server: 
+•	https://learn.microsoft.com/en-us/windows-server/get-started/overview <br>
+•	https://blog.webhostingworld.net/the-pros-and-cons-of-different-server-operating-systems/ 
+### Ubuntu Server: 
+•	https://ubuntu.com/server <br>
+•	https://dev.to/regoanac/pros-and-cons-of-ubuntu-exploring-advantages-and-disadvantages-of-the-linux-operating-system-2a4m
+### Rocky Linux: 
+•	https://tuxcare.com/blog/rocky-linux-vs-ubuntu/ <br>
+### VirtualBox Manual: 
+•   https://www.virtualbox.org/manual/topics/create-vm.html
