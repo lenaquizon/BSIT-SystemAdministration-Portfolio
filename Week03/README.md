@@ -96,7 +96,7 @@ By the end of this activity, students will have: <br>
 
 5. **OpenSSH Service Daemon Status**<br>
 • Command: systemctl status ssh <br>
-•Expected Result: Output indicates Active: active (running) in green text.<br>
+• Expected Result: active (running) in green text.<br>
 
 ---
 
@@ -120,3 +120,20 @@ By the end of this activity, students will have: <br>
 
 ## Boot Process Flowchart
 ![Boot Process Flowchart](diagrams/Boot_process_flowchart.drawio.png)
+
+---
+
+## Challenges Encountered
+1. **Large Download Size and Network Connectivity** <br>
+•	One of the major problems was the download size of the needed files. The Windows Server file was around 7.6 GB, considering how large the file was it took a while to download it. <br>
+2. **APT Archive Download Failure** <br>
+•	When doing the ‘sudo apt upgrade’ command, it failed and showed a “Failed to fetch”. The terminal also showed a 403 Forbidden error.
+
+---
+
+## Reflection
+Setting up a virtual environment was a bit overwhelming at first, especially when you aren't familiarized with platforms like VirtualBox. Seeing the interface, mainly for the Ubuntu Server ISO, it was unfamiliar due to it not having a full graphial interface. It was only text-based which I'm not used to. 
+
+The installation process was somewhat easier since our instructor also gave what we should pick with the configurations. If there were parts that was a bit confusing, I did end up consulting chatbots to help me navigate through the configuration process. However, when the installation was completed, it ended up being quite easy. The experience taught me how to create and install a new virtual machine, and adjust the needed configurations for the activity. 
+
+In the end, setting up the virtual machine started from being an overwhelming task, to somewhat a valuable learning experience. It enabled me to explore VirtualBox and understand how virtualization works. With this experience, I hope that I could further practice more on virtual machines and be able to manage different operating systems in the future.
