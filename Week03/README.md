@@ -97,3 +97,39 @@ By the end of this activity, students will have: <br>
 5. **OpenSSH Service Daemon Status**<br>
 • Command: systemctl status ssh <br>
 •Expected Result: Output indicates Active: active (running) in green text.<br>
+
+--
+
+## BIOS vs UEFI Highlights
+
+### Overview & Key Differences
+
+| Feature | BIOS (Basic Input/Output System) | UEFI (Unified Extensible Firmware Interface) |
+| :--- | :--- | :--- |
+| **Definition** | Traditional firmware providing low-level hardware control to the OS. | Modern, flexible firmware acting as a lightweight mini-operating system. |
+| **Boot Process** | POST → Checks boot order → Loads **MBR** → Executes bootloader → Boots OS. | Initialized drivers → Reads NVRAM `BootOrder` → Loads EFI bootloader from **ESP** → Boots OS. |
+| **Partition Style** | Master Boot Record (**MBR**) | GUID Partition Table (**GPT**) |
+| **Max Disk Support** | **2.2 TB** (standard 512-byte sector sizing) | **9.4 ZB** (~9.4 billion TB) |
+| **Execution Mode** | 16-bit Real Mode | 32-bit or 64-bit Mode |
+| **Security Features** | Minimal (basic supervisor/power-on passwords) | Advanced (**Secure Boot** via cryptographic key validation) |
+| **Advantages** | Broad legacy compatibility | Faster boot times, native mouse/GUI support, modular drivers, networking capabilities. |
+| **Disadvantages** | Severe storage limits, slow POST sequence, security vulnerabilities. | Requires system/firmware compatibility; complex implementation. |
+| **Modern Usage** | Obsolete; reserved for legacy hardware | Standard on all modern PCs and server platforms |
+
+---
+
+### Historical Context & Evolution
+
+For decades, **BIOS** served as the foundational firmware for personal computers, instructing operating systems on hardware operations. Originally created by Gary Kildall in 1975 and introduced as a proprietary IBM PC technology in 1981, BIOS was later standardized through the BIOS Boot Specification developed by Phoenix, Compaq, and Intel. 
+
+However, as hardware evolved toward faster processors, high-capacity drives, and advanced security models, legacy BIOS reached its technical limits:
+
+* **Storage Constraints:** Built-in reliance on 16-bit architecture and MBR partition tables capped addressable drive space at **2.2 TB**—a threshold easily exceeded by modern SSDs and multi-terabyte drives.
+* **Boot Performance:** Sequential Power-On Self-Test (POST) checks caused noticeable boot latency.
+
+To resolve these bottlenecks, **UEFI** was developed as a modern replacement. Operating in 32-bit or 64-bit modes, UEFI handles modern high-capacity storage drives with ease while significantly reducing initialization time. Crucially, UEFI introduces **Secure Boot**, a firmware-level security architecture that verifies cryptographic signatures of startup code to block unauthorized bootloaders and rootkits before the OS takes control.
+
+--
+
+## Boot Process Flowchart
+![Boot Process Flowchart](diagrams/Boot_process_flowchart.drawio.png)
